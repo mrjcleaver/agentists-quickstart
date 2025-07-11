@@ -2,25 +2,7 @@
 
 Welcome to the Agentists Quick Start repository - your opinionated guide to getting started with agentic engineering. 🚀
 
-## 🧠 What is Agentic Engineering?
-
-Agentic engineering is the practice of building, deploying, and managing AI agents that can autonomously perform tasks, make decisions, and interact with various systems. This repository provides best practices and ready-to-use configurations to accelerate your journey into this emerging field.
-
-## 🚀 Getting Started
-
-### 📋 Prerequisites
-
-**For DevPod.sh (Recommended):**
-- [DevPod CLI](https://devpod.sh/docs/getting-started/install)
-- Docker Desktop or Docker Engine
-
-**For Manual Setup:**
-- Docker or Podman installed
-- VS Code with Dev Containers extension
-- Git
-- Basic understanding of containerization
-
-### ⚡ Quick Start with DevPod.sh (Recommended)
+## ⚡ Quick Start
 
 Launch a ready-to-use workspace in seconds using [DevPod](https://devpod.sh/):
 
@@ -34,7 +16,25 @@ devpod up https://github.com/jedarden/agentists-quickstart --branch basic-devpod
 devpod up https://github.com/jedarden/agentists-quickstart --branch security-devpod
 ```
 
-### 🛠️ Alternative: Manual VS Code Setup
+## 🧠 What is Agentic Engineering?
+
+Agentic engineering is the practice of building, deploying, and managing AI agents that can autonomously perform tasks, make decisions, and interact with various systems. This repository provides best practices and ready-to-use configurations to accelerate your journey into this emerging field.
+
+## 📋 Prerequisites
+
+**For DevPod.sh (Recommended):**
+- [DevPod CLI](https://devpod.sh/docs/getting-started/install)
+- Docker Desktop or Docker Engine
+
+**For Manual Setup:**
+- Docker or Podman installed
+- VS Code with Dev Containers extension
+- Git
+- Basic understanding of containerization
+
+## 🛠️ Alternative Setup Methods
+
+### Manual VS Code Setup
 
 1. **Clone a specific branch**
    ```bash
