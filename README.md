@@ -6,29 +6,6 @@ Welcome to the Agentists Quick Start repository - your opinionated guide to gett
 
 Agentic engineering is the practice of building, deploying, and managing AI agents that can autonomously perform tasks, make decisions, and interact with various systems. This repository provides best practices and ready-to-use configurations to accelerate your journey into this emerging field.
 
-## 🎯 Core Principles
-
-### 1. 🌐 Remote-First Development
-**All coding is performed remotely in isolated environments. No running on local.**
-- Use containerized development environments (DevPods)
-- Ensures consistency across team members
-- Eliminates "works on my machine" issues
-- Provides clean separation between development and personal environments
-
-### 2. 🏗️ Agent-Centric Architecture
-**Design systems with autonomous agents as first-class citizens.**
-- Build modular, composable agent components
-- Implement clear agent boundaries and responsibilities
-- Use standardized communication protocols between agents
-- Design for scalability from single agent to multi-agent swarms
-
-### 3. 📈 Continuous Learning and Adaptation
-**Agents should evolve and improve through interaction and feedback.**
-- Implement feedback loops for agent performance
-- Use versioning for agent behaviors and models
-- Track agent decisions and outcomes for analysis
-- Enable A/B testing of agent strategies
-
 ## 🚀 Getting Started
 
 ### 📋 Prerequisites
@@ -58,6 +35,29 @@ Agentic engineering is the practice of building, deploying, and managing AI agen
 4. **Start Building**
    - All tools and dependencies are pre-installed
    - Begin developing your agentic applications
+
+## 🎯 Core Principles
+
+### 1. 🌐 Remote-First Development
+**All coding is performed remotely in isolated environments. No running on local.**
+- Use containerized development environments (DevPods)
+- Ensures consistency across team members
+- Eliminates "works on my machine" issues
+- Provides clean separation between development and personal environments
+
+### 2. 🏗️ Agent-Centric Architecture
+**Design systems with autonomous agents as first-class citizens.**
+- Build modular, composable agent components
+- Implement clear agent boundaries and responsibilities
+- Use standardized communication protocols between agents
+- Design for scalability from single agent to multi-agent swarms
+
+### 3. 📈 Continuous Learning and Adaptation
+**Agents should evolve and improve through interaction and feedback.**
+- Implement feedback loops for agent performance
+- Use versioning for agent behaviors and models
+- Track agent decisions and outcomes for analysis
+- Enable A/B testing of agent strategies
 
 ## 📁 Repository Structure
 
