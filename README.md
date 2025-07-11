@@ -10,29 +10,47 @@ Agentic engineering is the practice of building, deploying, and managing AI agen
 
 ### 📋 Prerequisites
 
+**For DevPod.sh (Recommended):**
+- [DevPod CLI](https://devpod.sh/docs/getting-started/install)
+- Docker Desktop or Docker Engine
+
+**For Manual Setup:**
 - Docker or Podman installed
 - VS Code with Dev Containers extension
 - Git
 - Basic understanding of containerization
 
-### ⚡ Quick Start
+### ⚡ Quick Start with DevPod.sh (Recommended)
 
-1. **Clone this repository**
+Launch a ready-to-use workspace in seconds using [DevPod](https://devpod.sh/):
+
+**Basic Development Environment:**
+```bash
+devpod up https://github.com/jedarden/agentists-quickstart --branch basic-devpod
+```
+
+**Security-Focused Environment:**
+```bash
+devpod up https://github.com/jedarden/agentists-quickstart --branch security-devpod
+```
+
+### 🛠️ Alternative: Manual VS Code Setup
+
+1. **Clone a specific branch**
    ```bash
-   git clone https://github.com/jedarden/agentists-quickstart
-   cd agentists-quickstart
+   # For basic development
+   git clone -b basic-devpod https://github.com/jedarden/agentists-quickstart
+   
+   # For security-focused development
+   git clone -b security-devpod https://github.com/jedarden/agentists-quickstart
    ```
 
-2. **Choose a DevPod**
-   - Navigate to `devpods/examples/`
-   - Select either `basic-devpod` or `security-devpod`
-
-3. **Open in VS Code**
-   - Open the chosen devpod folder in VS Code
+2. **Open in VS Code**
+   - Open the cloned folder in VS Code
+   - Install the Dev Containers extension if needed
    - Click "Reopen in Container" when prompted
-   - Wait for the environment to build
 
-4. **Start Building**
+3. **Start Building**
    - All tools and dependencies are pre-installed
    - Begin developing your agentic applications
 
@@ -61,27 +79,40 @@ Agentic engineering is the practice of building, deploying, and managing AI agen
 
 ## 📁 Repository Structure
 
+This repository uses a branch-based approach for different DevPod configurations:
+
+**Main Branches:**
+- `main` - Documentation and project overview
+- `devpods-documentation` - Comprehensive DevPods documentation
+
+**DevPod Branches:**
+- `basic-devpod` - General-purpose development environment with Docker-in-Docker
+- `security-devpod` - Security research environment with Node.js tools
+
+Each DevPod branch contains:
 ```
-agentists-quickstart/
-├── README.md                 # This file
-├── devpods/                  # Containerized development environments
-│   ├── README.md            # DevPods documentation
-│   └── examples/            # Ready-to-use DevPod configurations
-│       ├── basic-devpod/    # General-purpose development
-│       └── security-devpod/ # Security-focused development
-└── [future directories]     # Additional resources coming soon
+├── .devcontainer/
+│   └── devcontainer.json    # DevContainer configuration
+├── README.md                # Branch-specific documentation
+└── .gitignore              # Standard gitignore
 ```
 
 ## 🐳 DevPods
 
-DevPods are our implementation of containerized development environments. They provide:
+DevPods are our implementation of containerized development environments. Each DevPod is available as a separate branch that can be instantly launched using DevPod.sh.
 
-- Pre-configured development tools
-- Consistent environments across all developers
-- Isolation from local system
-- Easy onboarding for new team members
+**Available DevPods:**
 
-See the [DevPods documentation](devpods/README.md) for detailed information.
+| DevPod | Branch | Use Case | Launch Command |
+|--------|--------|----------|----------------|
+| Basic Development | `basic-devpod` | General development with Docker-in-Docker | `devpod up https://github.com/jedarden/agentists-quickstart --branch basic-devpod` |
+| Security-Focused | `security-devpod` | Security research and Node.js development | `devpod up https://github.com/jedarden/agentists-quickstart --branch security-devpod` |
+
+**Benefits:**
+- 🚀 Instant workspace setup
+- 🔒 Isolated environments
+- 📦 Pre-configured tools
+- 🤝 Consistent across teams
 
 ## ✅ Best Practices
 
