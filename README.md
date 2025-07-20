@@ -10,7 +10,7 @@ Launch a ready-to-use workspace in seconds using [DevPod](https://devpod.sh/):
 * Share your set up across CodeSpaces and/or your HomeLab
 This includes:
 * Favored VS Code extensions
-* Shared secrets (e.g. Claude API Key e.g. ANTHROPIC_API_KEY) from an external provider such as 1password
+* Shared secrets (e.g. Claude API Key e.g. ANTHROPIC_API_KEY) from an external provider such as Github Codespaces Secrets or 1password
 
 **Install DevPod in a Code space**
 * Clone this repo
