@@ -24,12 +24,12 @@ This includes:
 
 **Basic Development Environment:**
 ```bash
-devpod up https://github.com/jedarden/agentists-quickstart --branch workspace/basic
+devpod up https://github.com/jedarden/agentists-quickstart@workspace/basic
 ```
 
 **Security-Focused Environment:**
 ```bash
-devpod up https://github.com/jedarden/agentists-quickstart --branch workspace/security
+devpod up https://github.com/jedarden/agentists-quickstart@workspace/security
 ```
 
 ## 🧠 What is Agentic Engineering?
