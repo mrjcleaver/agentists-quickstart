@@ -2,7 +2,16 @@
 
 Welcome to the Agentists Quick Start repository - your opinionated guide to getting started with agentic engineering. 🚀
 
-## ⚡ Quick Start
+## Quick Start
+In your new repo, select Code > Code Spaces > Configure dev container
+<img width="646" height="235" alt="image" src="https://github.com/user-attachments/assets/7b358e94-7445-4669-8600-f951cbda8505" />
+
+In the window that pops up to edit your-repo/.devcontainer/devcontainer.json, replace the contents with the contends of one of the devcontainer.json files in  https://github.com/mrjcleaver/agentists-quickstart/tree/main/devpods/examples
+<img width="919" height="254" alt="image" src="https://github.com/user-attachments/assets/39933277-5b14-4f0f-893f-a2493a863d39" />
+
+
+
+## ⚡ Customized Start
 
 Launch a ready-to-use workspace in seconds using [DevPod](https://devpod.sh/):
 
